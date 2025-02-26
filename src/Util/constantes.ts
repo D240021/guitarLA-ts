@@ -1,0 +1,2 @@
+export const MAX_ELEMENTOS_CARRITO = 5;
+export const MIN_ELEMENTOS_CARRITO = 1;
