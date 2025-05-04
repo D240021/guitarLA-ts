@@ -14,7 +14,7 @@ export default function Guitarra({ guitarra, agregarAlCarrito } : GuitarraProps)
     return (
         <div className="col-12 col-md-6 col-lg-4">
             <div className="card">
-                <img className="img-fluid" src={`/img/${image}.jpg`} alt="imagen guitarra" />
+                <img className="img-fluid" src={`./img/${image}.jpg`} alt="imagen guitarra" />
                 <div className="card-body">
                     <h3 className="card-title">{name}</h3>
                     <p className="card-text">{description}</p>
